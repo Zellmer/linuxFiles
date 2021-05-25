@@ -5,7 +5,7 @@ alias ..='cd ..'
 
 #Update des systems
 alias bashrc_update='source ~/.bashrc'
-alias bashrc_download='rm  ~/.bashrc && rm ~/.bash_aliases && wget -P ~/ https://raw.githubusercontent.com/Zellmer/linuxFiles/main/.bashrc && wget -P ~/ https://raw.githubusercontent.com/Zellmer/linuxFiles/main/.bash_aliases'
+alias bashrc_download='rm  ~/.bashrc && rm ~/.bash_aliases && wget -P ~/ https://raw.githubusercontent.com/Zellmer/linuxFiles/main/.bashrc && wget -P ~/ https://raw.githubusercontent.com/Zellmer/linuxFiles/main/.bash_aliases && bashrc_update'
 
 
 #Statusseiten
