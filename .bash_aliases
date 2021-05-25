@@ -1,6 +1,7 @@
 #Auflistung von Ordnerinhalten
 alias ll='ls -l'
 alias la='ls -lA'
+alias ..='cd ..'
 
 #Update des systems
 alias bashrc_update='source ~/.bashrc'
