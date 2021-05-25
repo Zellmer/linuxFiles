@@ -4,3 +4,4 @@ alias la='ls -A'
 
 #Statusseiten
 alias ipconfig='ip add | grep inet'
+alias version='lsb_release -a'
