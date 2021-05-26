@@ -13,3 +13,4 @@ alias restart_web='sudo systemctl reload apache2'
 #Statusseiten
 alias ipconfig='ip add | grep inet'
 alias version='lsb_release -a'
+alias ports='ss -nptl' #wenn ufw installiert ist
