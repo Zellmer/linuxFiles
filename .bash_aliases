@@ -8,7 +8,7 @@ alias cls='clear'
 alias bashrc_update='source ~/.bashrc'
 alias bashrc_download='rm  ~/.bashrc && rm ~/.bash_aliases && wget -P ~/ https://raw.githubusercontent.com/Zellmer/linuxFiles/main/.bashrc && wget -P ~/ https://raw.githubusercontent.com/Zellmer/linuxFiles/main/.bash_aliases && bashrc_update'
 
-alias restart_web='sudo service apache2 restart'
+alias restart_web='sudo systemctl reload apache2'
 
 #Statusseiten
 alias ipconfig='ip add | grep inet'
