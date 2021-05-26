@@ -2,6 +2,7 @@
 alias ll='ls -l'
 alias la='ls -lA'
 alias ..='cd ..'
+alias cls='clear'
 
 #Update des systems
 alias bashrc_update='source ~/.bashrc'
